@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test getting ready.]]>
+    </line>
+    <line>
+      <![CDATA[Setting done - test can be started.]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and Getting application : ]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Getting application is up and running : ]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end : ]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports Generated : ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15530" started-at="2021-06-26T17:22:18Z" finished-at="2021-06-26T17:22:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15530" started-at="2021-06-26T17:22:18Z" finished-at="2021-06-26T17:22:33Z">
+      <class name="com.learnautomation.testcases.LoginTestBrowserStack">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a]" name="setupSuite" is-config="true" duration-ms="882" started-at="2021-06-26T17:22:17Z" finished-at="2021-06-26T17:22:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test getting ready.]]>
+            </line>
+            <line>
+              <![CDATA[Setting done - test can be started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a]" name="setup" is-config="true" duration-ms="11863" started-at="2021-06-26T17:22:18Z" finished-at="2021-06-26T17:22:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and Getting application : ]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Getting application is up and running : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a]" name="loginApp" duration-ms="1382" started-at="2021-06-26T17:22:30Z" finished-at="2021-06-26T17:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a]" name="tearDownMethod" is-config="true" duration-ms="1236" started-at="2021-06-26T17:22:31Z" finished-at="2021-06-26T17:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestBrowserStack.loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end : ]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports Generated : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestBrowserStack@161b062a]" name="tearDown" is-config="true" duration-ms="1008" started-at="2021-06-26T17:22:32Z" finished-at="2021-06-26T17:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestBrowserStack -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
