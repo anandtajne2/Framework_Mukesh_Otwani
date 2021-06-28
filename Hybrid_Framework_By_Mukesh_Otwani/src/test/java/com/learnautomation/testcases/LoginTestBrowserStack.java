@@ -16,7 +16,6 @@ public class LoginTestBrowserStack extends BaseClass {
 		loginPage.loginToBrowserStack(excelDataProvider.getStringData("login", 0, 0),
 				excelDataProvider.getStringData("login", 0, 1));
 		logger.pass("login done successfully ");
-
 	}
 
 }

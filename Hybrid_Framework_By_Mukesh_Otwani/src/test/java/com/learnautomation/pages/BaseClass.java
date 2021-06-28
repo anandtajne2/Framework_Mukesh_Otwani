@@ -10,6 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -44,11 +45,17 @@ public class BaseClass {
 		Reporter.log("Setting done - test can be started.", true);
 	}
 
+	@Parameters({ "browser", "url" }) // match the value from pom.xml surefire plugin
 	@BeforeClass
-	public void setup() {
+	// public void setup() {
+	// passing parameters for browser
+	public void setup(String browser, String url) {
 		Reporter.log("Trying to start Browser and Getting application : ", true);
-		driver = BrowserFactory.startApplication(configDataProvider.getBrowser(), configDataProvider.getStagingURL(),
-				driver);
+		// driver = BrowserFactory.startApplication(configDataProvider.getBrowser(),
+		// configDataProvider.getStagingURL(),
+		// driver);
+		// getting browser from POM.xml file in surfire plugin
+		driver = BrowserFactory.startApplication(browser, url, driver);
 		Reporter.log("Browser and Getting application is up and running : ", true);
 	}
 
